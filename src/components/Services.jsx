@@ -37,7 +37,7 @@ const ServicesStyled = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 50px;
+	padding: 40px;
 	@media screen and (max-width: 1100px) {
 		flex-direction: column;
 	}
@@ -46,7 +46,7 @@ const ServicesStyled = styled.div`
 const ServicesItem = styled.div`
 	max-width: 380px;
 	height: 420px;
-	color: #214466;
+	color: #03588c;
 	padding: 5rem 0rem;
 	margin: 20px 0px;
 	transition: all 0.2s ease;
@@ -60,11 +60,7 @@ const ServicesItem = styled.div`
 		margin-bottom: 50px;
 	}
 	&:hover {
-		background-color: #214466;
-		color: white;
-		h3 {
-			color: #f36060;
-		}
+		background-color: #ceeeff;
 	}
 
 	@media screen and (max-width: 500px) {

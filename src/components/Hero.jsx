@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Hero = () => {
 	return (
 		<HeroStyled id="about">
+			<img src="./img/hero_img_2.jpg" alt="" />
 			<HeroDescr>
 				<h1>
 					Международные автоперевозки различными видами и типами
@@ -24,28 +25,34 @@ const HeroStyled = styled.div`
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background: url("../img/hero_img.jpg") center center/cover no-repeat;
+	img {
+		position: absolute;
+		width: 1200px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-20%, -50%);
+	}
 `;
 
 const HeroDescr = styled.div`
 	width: 730px;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
-	left: 12rem;
-	padding: 3rem;
+	left: 50%;
+	transform: translate(-85%, -50%);
 	h1 {
 		font-weight: 300;
-		font-size: 48px;
-		color: #deeaf5;
+		font-size: 46px;
+		color: #0079b2;
 		text-transform: uppercase;
-		line-height: 70px;
+		line-height: 60px;
 		span {
 			font-size: 56px;
 			font-weight: 500;
-			color: #f36060;
+			color: #03588c;
 		}
 	}
+
 	@media screen and (max-width: 900px) {
 		width: 600px;
 		left: 50%;
@@ -65,7 +72,6 @@ const HeroDescr = styled.div`
 			span {
 				font-size: 45px;
 				font-weight: 500;
-				color: #f36060;
 			}
 		}
 	}

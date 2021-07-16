@@ -1,9 +1,8 @@
-import React, from "react";
+import React from "react";
 import logo from "../img/enica_logo 1.png";
 import styled from "styled-components";
 
 const Header = () => {
-
 	return (
 		<HeaderStyled>
 			<div className="logo">
@@ -38,7 +37,7 @@ const HeaderStyled = styled.div`
 	width: 100%;
 	padding: 0px 5rem;
 	height: 70px;
-	background-color: #162d44;
+	background-color: #03588c;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -72,7 +71,7 @@ const NavStyled = styled.nav`
 				text-transform: uppercase;
 				transition: color 0.2s ease;
 				&:hover {
-					color: #f36060;
+					color: #1993d7;
 				}
 			}
 		}

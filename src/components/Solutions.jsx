@@ -61,12 +61,12 @@ const Solutions = () => {
 };
 
 const SolutionsStyled = styled.div`
-	padding: 70px 20px;
+	padding: 100px 40px;
 	h2 {
 		text-align: center;
 		font-weight: 400;
 		font-size: 42px;
-		color: #f36060;
+		color: #03588c;
 		text-transform: uppercase;
 		margin-bottom: 100px;
 	}

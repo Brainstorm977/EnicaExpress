@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Cases from "./components/Cases";
-import Solutions from "./components/Solutions";
 import Contacts from "./components/Contacts";
 import Hamburger from "./components/Hamburger";
 import Header from "./components/Header";
@@ -23,7 +22,6 @@ function App() {
 			<Services />
 			<Cases />
 			<Survey />
-			<Solutions />
 			<Contacts />
 		</div>
 	);

@@ -85,19 +85,16 @@ const Cases = () => {
 
 const CasesStyled = styled.div`
 	width: 100%;
-	padding: 5rem 2rem;
+	padding: 100px 40px 30px 40px;
 	h2 {
 		text-align: center;
 		font-weight: 400;
 		font-size: 42px;
-		color: #f36060;
+		color: #03588c;
 		text-transform: uppercase;
 	}
-	@media (max-width: 1100px) {
-		padding: 2rem;
-	}
-	@media (max-width: 700px) {
-		padding: 1rem;
+	@media screen and (max-width: 800px) {
+		padding: 70px 10px 20px 10px;
 	}
 `;
 
@@ -115,6 +112,8 @@ const CaseContainer = styled.div`
 const Case = styled.div`
 	width: 400px;
 	height: 400px;
+	margin: 10px;
+	border-radius: 10px;
 	overflow: hidden;
 	transition: all 0.5s ease;
 	position: relative;
@@ -123,6 +122,7 @@ const Case = styled.div`
 		height: 100%;
 		transition: all 0.3s ease;
 		opacity: 1;
+		object-fit: cover;
 	}
 	h3 {
 		width: 90%;
@@ -130,11 +130,11 @@ const Case = styled.div`
 		top: -100%;
 		left: 50%;
 		transform: translateX(-50%);
-		font-size: 32px;
+		font-size: 30px;
 		font-weight: 400;
 		text-transform: uppercase;
 		text-align: center;
-		color: #2d4a6b;
+		color: #03588c;
 		transition: all 0.5s ease;
 	}
 	h4 {
@@ -176,6 +176,14 @@ const Case = styled.div`
 			top: 50%;
 			left: 50%;
 			transform: translateX(-50%);
+		}
+	}
+	@media screen and (max-width: 500px) {
+		h3 {
+			font-size: 26px;
+		}
+		h4 {
+			font-size: 24px;
 		}
 	}
 `;

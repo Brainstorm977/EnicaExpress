@@ -44,19 +44,16 @@ const Survey = () => {
 
 const SurveyStyled = styled.div`
 	width: 100%;
-	padding: 5rem 2rem;
+	padding: 100px 40px 30px 40px;
 	h2 {
 		text-align: center;
 		font-weight: 400;
 		font-size: 42px;
-		color: #f36060;
+		color: #03588c;
 		text-transform: uppercase;
 	}
-	@media (max-width: 1100px) {
-		padding: 2rem;
-	}
-	@media (max-width: 700px) {
-		padding: 1rem;
+	@media screen and (max-width: 800px) {
+		padding: 70px 10px 20px 10px;
 	}
 `;
 
@@ -71,6 +68,8 @@ const SurveyContainer = styled.div`
 const SurveyItem = styled.div`
 	width: 400px;
 	height: 400px;
+	margin: 10px;
+	border-radius: 10px;
 	overflow: hidden;
 	transition: all 0.5s ease;
 	position: relative;
@@ -86,7 +85,7 @@ const SurveyItem = styled.div`
 		top: -100%;
 		left: 50%;
 		transform: translateX(-50%);
-		font-size: 32px;
+		font-size: 30px;
 		font-weight: 400;
 		text-transform: uppercase;
 		text-align: center;
@@ -132,6 +131,14 @@ const SurveyItem = styled.div`
 			top: 40%;
 			left: 50%;
 			transform: translateX(-50%);
+		}
+	}
+	@media screen and (max-width: 500px) {
+		h3 {
+			font-size: 26px;
+		}
+		h4 {
+			font-size: 20px;
 		}
 	}
 `;
