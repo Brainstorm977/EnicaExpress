@@ -9,73 +9,126 @@ const Cases = () => {
 				<Case>
 					<h3>ДОСТАВКА БЫТОВОЙ ТЕХНИКИ</h3>
 					<div className="line"></div>
-					<h4>Калуга – Москва</h4>
+					<p>
+						Изотермические и тентованные/шторные авто с
+						разносторонней загрузкой. Служба безопасности проверяет
+						поставщиков и инструктирует водителей. Ворота
+						закрепляются силовой пломбой, тенты предлагаются под
+						габаритный груз с плотной загрузкой.
+					</p>
 					<img src="./img/12.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА КОНДИТЕРСКИХ ИЗДЕЛИЙ</h3>
 					<div className="line"></div>
-					<h4>Алматы – Москва</h4>
+					<p>
+						Привлечённые и собственные рефрижераторы под строгим
+						температурным режимом. Отчёт с термописца для
+						грузополучателя, пересчёт грузовых мест при погрузке,
+						санитарная обработка транспорта.
+					</p>
 					<img src="./img/2.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ПЛОДОВОЩНОЙ ПРОДУКЦИИ</h3>
 					<div className="line"></div>
-					<h4>Фергана– Москва</h4>
+					<p>
+						Строгий температурный режим и дополнительные
+						термодатчики. При погрузке проверяем продукцию на
+						качество.
+					</p>
 					<img src="./img/3.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ПРЯЖИ</h3>
 					<div className="line"></div>
-					<h4>Шават – Смоленск</h4>
+					<p>
+						Авто с жёсткими бортами и увеличенной высотой.
+						Затаривание груза в мешки, тентование плотным полотном.
+					</p>
 					<img src="./img/4.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ПРОДУКТОВ ПИТАНИЯ</h3>
 					<div className="line"></div>
-					<h4>Новосибирск – Душанбе</h4>
+					<p>
+						Привлечённые и собственные рефрижераторы под строгим
+						температурным режимом. Отчёт с термописца для
+						грузополучателя, пересчёт грузовых мест при погрузке,
+						санитарная обработка транспорта.
+					</p>
 					<img src="./img/5.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ХИМИЧЕСКОГО СЫРЬЯ</h3>
 					<div className="line"></div>
-					<h4>Нукус – Москва</h4>
+					<p>
+						Цельнометаллический кузов обшиваем фанерой, затаренное
+						сырьё закрепляем ремнями. Мешки с полимерами типа
+						полипропилена укладываем в штабеля и распределяем по
+						кузову.
+					</p>
 					<img src="./img/6.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ОДЕЖДЫ</h3>
 					<div className="line"></div>
-					<h4>Андижан – Москва</h4>
+					<p>
+						Авто повышенной кубатуры: 100 — 120 м3, MEGA и сцепка.
+						Плотное стрейчевание. Проверяем количество и качество
+						груза при погрузке.{" "}
+					</p>
 					<img src="./img/7.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ЙОГУРТОВ</h3>
 					<div className="line"></div>
-					<h4>Москва – Душанбе</h4>
+					<p>
+						Привлечённые и собственные рефрижераторы под строгим
+						температурным режимом. Отчёт с термописца для
+						грузополучателя, пересчёт грузовых мест при погрузке,
+						санитарная обработка транспорта.
+					</p>
 					<img src="./img/8.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА ГЕОМЕМБРАНЫ</h3>
 					<div className="line"></div>
-					<h4>Нижний Новгород – Балыкчи</h4>
+					<p>
+						Цельнометаллический кузов или платформа с бортами. На
+						платформе используем коники и крепежные ремни, в кузове
+						плотно штабелируем.{" "}
+					</p>
 					<img src="./img/9.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА СТРОИТЕЛЬНЫХ МАТЕРИАЛОВ</h3>
 					<div className="line"></div>
-					<h4>Москва – Ташкент</h4>
+					<p>
+						Полная растентовка. Закрепление груза штангами,
+						планками, ремнями и кониками. Доставка в сложные места:
+						степи, гористые местности.
+					</p>
 					<img src="./img/10.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА СБОРНЫХ ГРУЗОВ</h3>
 					<div className="line"></div>
-					<h4>Москва – Карши</h4>
+					<p>
+						Забор, подготовка сопроводительных документов и доставка
+						«дверь — дверь». Перевозим сборные грузы до 10 тонн, в
+						том числе температурные.
+					</p>
 					<img src="./img/11.jpg" alt="case 1" />
 				</Case>
 				<Case>
 					<h3>ДОСТАВКА СТРОИТЕЛЬНОЙ ТЕХНИКИ</h3>
 					<div className="line"></div>
-					<h4>Тверь – Ташкент</h4>
+					<p>
+						Полная растентовка. Закрепление груза штангами,
+						планками, ремнями и кониками. Доставка в сложные места:
+						степи, гористые местности.
+					</p>
 					<img src="./img/1.jpg" alt="case 1" />
 				</Case>
 			</CaseContainer>
@@ -88,8 +141,8 @@ const CasesStyled = styled.div`
 	padding: 100px 40px 30px 40px;
 	h2 {
 		text-align: center;
-		font-weight: 400;
-		font-size: 42px;
+		font-weight: 500;
+		font-size: 32px;
 		color: #03588c;
 		text-transform: uppercase;
 	}
@@ -115,12 +168,11 @@ const Case = styled.div`
 	margin: 10px;
 	border-radius: 10px;
 	overflow: hidden;
-	transition: all 0.5s ease;
 	position: relative;
 	img {
 		width: 100%;
 		height: 100%;
-		transition: all 0.3s ease;
+		transition: all 0.4s ease;
 		opacity: 1;
 		object-fit: cover;
 	}
@@ -130,60 +182,61 @@ const Case = styled.div`
 		top: -100%;
 		left: 50%;
 		transform: translateX(-50%);
-		font-size: 30px;
-		font-weight: 400;
+		font-size: 24px;
+		font-weight: 500;
 		text-transform: uppercase;
 		text-align: center;
 		color: #03588c;
-		transition: all 0.5s ease;
+		transition: all 0.3s ease;
 	}
-	h4 {
-		width: 80%;
+	p {
+		font-family: "Ubuntu Condensed", sans-serif;
+		width: 90%;
 		position: absolute;
 		top: 100%;
 		left: 50%;
 		transform: translateX(-50%);
-		font-size: 32px;
+		font-size: 20px;
 		font-weight: 300;
 		text-align: center;
-		color: #2d4a6b;
-		transition: all 0.5s ease;
+		color: #03588c;
+		transition: all 0.3s ease;
 	}
 	.line {
 		position: absolute;
 		width: 50%;
 		height: 3px;
 		background-color: #f36060;
-		top: 50%;
+		top: 30%;
 		left: -100%;
-		transition: all 0.5s ease;
+		transition: all 0.3s ease;
 	}
 	&:hover {
 		img {
 			opacity: 0.1;
 		}
 		h3 {
-			top: 90px;
+			top: 50px;
 			left: 50%;
 			transform: translateX(-50%);
 		}
-		h4 {
-			top: 260px;
+		p {
+			top: 200px;
 			left: 50%;
 			transform: translateX(-50%);
 		}
 		.line {
-			top: 50%;
+			top: 150px;
 			left: 50%;
 			transform: translateX(-50%);
 		}
 	}
 	@media screen and (max-width: 500px) {
 		h3 {
-			font-size: 26px;
+			font-size: 22px;
 		}
-		h4 {
-			font-size: 24px;
+		p {
+			font-size: 20px;
 		}
 	}
 `;

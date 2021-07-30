@@ -7,24 +7,36 @@ const Services = () => {
 			<ServicesItem>
 				<h3>Международные автоперевозки</h3>
 				<ServiceDescr>
-					<p>Россия - Казахстан - Россия</p>
-					<p>Россия - Узбекистан - Россия</p>
-					<p>Россия - Таджикистан - Россия</p>
-					<p>Россия - Киргизия - Россия</p>
+					<p>
+						Средняя Азия и Прибалтика, импорт и экспорт.
+						Сюрвейерские услуги в крупных городах на погрузке и
+						выгрузке.
+						<br />
+						Подготовка документов по каждой стране.
+						<br />
+						Свой «банк» перевозчиков, не работаем с биржами.
+					</p>
 				</ServiceDescr>
 			</ServicesItem>
 			<ServicesItem>
 				<h3>Доставка сборных грузов</h3>
 				<ServiceDescr>
-					<p>Россия - Узбекистан - Россия</p>
+					<p>
+						Забор, подготовка сопроводительных документов и доставка
+						«дверь — дверь». Перевозим сборные грузы до 10 тонн, в
+						том числе температурные. В Узбекистан и из него возим
+						опасные грузы.
+					</p>
 				</ServiceDescr>
 			</ServicesItem>
 			<ServicesItem>
 				<h3>Локальная доставка грузов</h3>
 				<ServiceDescr>
 					<p>
-						по Москве и Московской области собственным
-						мелкотоннажным транспортом
+						Собственный автопарк из авто с грузоподъемностью до 3,5
+						и до 10 тонн. Онлайн-слежение за грузом в
+						«БелТрансСпутник». Москва, Московская область и
+						Центральный ФО.
 					</p>
 				</ServiceDescr>
 			</ServicesItem>
@@ -44,18 +56,20 @@ const ServicesStyled = styled.div`
 `;
 
 const ServicesItem = styled.div`
+	font-family: "Ubuntu Condensed", sans-serif;
 	max-width: 380px;
 	height: 420px;
 	color: #03588c;
-	padding: 5rem 0rem;
+	padding: 50px 20px 10px 20px;
 	margin: 20px 0px;
 	transition: all 0.2s ease;
 	border: 1px solid #eaf3fd;
 	h3 {
-		font-weight: 400;
-		font-size: 36px;
+		font-family: "Ubuntu", sans-serif;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 36px;
 		text-transform: uppercase;
-		line-height: 50px;
 		text-align: center;
 		margin-bottom: 50px;
 	}
@@ -65,6 +79,7 @@ const ServicesItem = styled.div`
 
 	@media screen and (max-width: 500px) {
 		padding: 2rem;
+		height: auto;
 	}
 `;
 

@@ -135,20 +135,21 @@ const Contacts = () => {
 };
 
 const ContactsStyled = styled.div`
+	color: #03588c;
 	padding: 100px 40px;
 	h2 {
 		text-align: center;
-		font-weight: 400;
-		font-size: 42px;
-		color: #03588c;
+		font-size: 32px;
+		font-weight: 500;
+
 		text-transform: uppercase;
 		margin-bottom: 100px;
 	}
 	.contacts__descr {
+		font-family: "Ubuntu Condensed", sans-serif;
 		display: block;
 		text-align: center;
 		font-size: 24px;
-		color: #0375bb;
 	}
 	.contacts__line,
 	.contact__line {
@@ -166,8 +167,7 @@ const ContactItem = styled.div`
 	h3 {
 		text-align: center;
 		font-size: 24px;
-		font-weight: 400;
-		/* margin-bottom: 35px; */
+		font-weight: 500;
 		color: #03588c;
 		cursor: pointer;
 	}
@@ -194,17 +194,18 @@ const ContactItemDescr = styled.div`
 	width: 35%;
 	color: #03588c;
 	h4 {
-		font-size: 32px;
-		font-weight: 300;
-
+		font-size: 26px;
+		font-weight: 500;
 		margin: 30px 0;
 	}
 	.address {
 		font-size: 22px;
+		margin-bottom: 20px;
 	}
 	.phone,
 	.email {
 		font-size: 20px;
+		font-weight: 500;
 		margin-bottom: 20px;
 	}
 	@media screen and (max-width: 800px) {

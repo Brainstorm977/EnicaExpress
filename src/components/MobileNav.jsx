@@ -6,6 +6,9 @@ const MobileNav = ({ isActive, toggleMenu }) => {
 		<MobileNavStyled isActive={isActive}>
 			<ul>
 				<li onClick={toggleMenu}>
+					<a href="#about">О нас</a>
+				</li>
+				<li onClick={toggleMenu}>
 					<a href="#services">Услуги</a>
 				</li>
 				<li onClick={toggleMenu}>
@@ -13,9 +16,6 @@ const MobileNav = ({ isActive, toggleMenu }) => {
 				</li>
 				<li onClick={toggleMenu}>
 					<a href="#survey">Сюрвей</a>
-				</li>
-				<li onClick={toggleMenu}>
-					<a href="#solutions">Решения</a>
 				</li>
 				<li onClick={toggleMenu}>
 					<a href="#contacts">Контакты</a>

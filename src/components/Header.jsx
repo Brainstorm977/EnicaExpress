@@ -13,6 +13,9 @@ const Header = () => {
 			<NavStyled>
 				<ul>
 					<li>
+						<a href="#about">О нас</a>
+					</li>
+					<li>
 						<a href="#services">Услуги</a>
 					</li>
 					<li>
@@ -20,9 +23,6 @@ const Header = () => {
 					</li>
 					<li>
 						<a href="#survey">Сюрвей</a>
-					</li>
-					<li>
-						<a href="#solutions">Решения</a>
 					</li>
 					<li>
 						<a href="#contacts">Контакты</a>
@@ -35,9 +35,9 @@ const Header = () => {
 
 const HeaderStyled = styled.div`
 	width: 100%;
-	padding: 0px 5rem;
+	padding: 0px 100px;
 	height: 70px;
-	background-color: #03588c;
+	background-color: #0c4061;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -62,16 +62,16 @@ const NavStyled = styled.nav`
 		justify-content: space-between;
 		list-style: none;
 		li {
-			font-weight: 300;
+			font-weight: 500;
 			font-size: 16px;
 			margin-left: 50px;
 			a {
 				color: white;
 				text-decoration: none;
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				transition: color 0.2s ease;
 				&:hover {
-					color: #1993d7;
+					color: #31b5fc;
 				}
 			}
 		}

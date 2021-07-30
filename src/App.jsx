@@ -3,7 +3,7 @@ import Cases from "./components/Cases";
 import Contacts from "./components/Contacts";
 import Hamburger from "./components/Hamburger";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Hero1 from "./components/Hero1";
 import MobileNav from "./components/MobileNav";
 import Services from "./components/Services";
 import Survey from "./components/Survey";
@@ -18,7 +18,7 @@ function App() {
 			<Hamburger isActive={activeMenu} toggleMenu={toggleHandler} />
 			<MobileNav isActive={activeMenu} toggleMenu={toggleHandler} />
 			<Header />
-			<Hero />
+			<Hero1 />
 			<Services />
 			<Cases />
 			<Survey />
