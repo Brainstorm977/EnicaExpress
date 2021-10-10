@@ -7,47 +7,60 @@ const Contacts = () => {
 	const [krgVisible, setKrgVisible] = useState(false);
 	const [uzbVisible, setUzbVisible] = useState(false);
 	const [tdjVisible, setTdjVisible] = useState(false);
+	const [korVisible, setKorVisible] = useState(false);
 
 	const rusClickHandler = () => {
 		setRusVisible(!rusVisible);
 		setKrgVisible(false);
 		setUzbVisible(false);
 		setTdjVisible(false);
+		setKorVisible(false);
 	};
 	const krgClickHandler = () => {
 		setKrgVisible(!krgVisible);
 		setRusVisible(false);
 		setUzbVisible(false);
 		setTdjVisible(false);
+		setKorVisible(false);
 	};
 	const uzbClickHandler = () => {
 		setUzbVisible(!uzbVisible);
 		setKrgVisible(false);
 		setRusVisible(false);
 		setTdjVisible(false);
+		setKorVisible(false);
 	};
 	const tdjClickHandler = () => {
 		setTdjVisible(!tdjVisible);
 		setKrgVisible(false);
 		setUzbVisible(false);
 		setRusVisible(false);
+		setKorVisible(false);
+	};
+	const korClickHandler = () => {
+		setTdjVisible(false);
+		setKrgVisible(false);
+		setUzbVisible(false);
+		setRusVisible(false);
+		setKorVisible(!korVisible);
 	};
 
 	return (
 		<ContactsStyled id="contacts">
 			<h2>Контакты</h2>
 			<p className="contacts__descr">
-				Альянс компаний, объединенных под брендом “Enica Express” имеет
-				свои офисы во всех странах Центральной и Средней Азии.
+				Альянс компаний, объединенных под брендом ENICA EXPRESS, имеет
+				свои офисы как и в России, так и во всех странах Центральной
+				Азии.
 			</p>
 			<div className="contacts__line"></div>
 			<ContactItem>
-				<h3 onClick={rusClickHandler}>Представительство в России</h3>
+				<h3 onClick={rusClickHandler}>Офис в России</h3>
 				<ContactItemContent visible={rusVisible}>
 					<ContactItemDescr>
-						<h4>Enica Express RUS</h4>
+						<h4>ENICA EXPRESS RUS</h4>
 						<p className="address">
-							г. Москва, 22й километр Киевского шоссе (п.
+							г. Москва, 22-й километр Киевского шоссе (п.
 							Московский), <br /> домовл. 4, стр. 2, блок Г
 						</p>
 						<p className="phone">Телефон: +7 (495) 374-68-68</p>
@@ -69,14 +82,14 @@ const Contacts = () => {
 					<ContactItemDescr>
 						<h4>
 							Представительство компании «Enex Logistics Co., Ltd»
-							в Республике Узбекистан
+							в Узбекистане
 						</h4>
 						<p className="address">
-							г.Ташкент, Мирабадский район, ул.Афросиаб, 4Б, офис
-							207
+							г. Ташкент, Мирабадский район, ул. Афросиаб, д. 4Б,
+							офис 207
 						</p>
 						<p className="phone">Телефон: +998 90 9120788</p>
-						<p className="email">E-mail: sales@enica-express.ru</p>
+						<p className="email">E-mail: info@enex-logistics.com</p>
 					</ContactItemDescr>
 					<ContactMap
 						src="https://yandex.ru/map-widget/v1/?um=mymaps%3AEu8yrsj9AiwQUz9E7ErbcSmm0TpyBENM&amp;source=constructor"
@@ -87,18 +100,16 @@ const Contacts = () => {
 				<div className="contact__line"></div>
 			</ContactItem>
 			<ContactItem>
-				<h3 onClick={krgClickHandler}>
-					Представительство в Кыргызстане
-				</h3>
+				<h3 onClick={krgClickHandler}>Офис в Кыргызстане</h3>
 
 				<ContactItemContent visible={krgVisible}>
 					<ContactItemDescr>
-						<h4>Enica Express KRG</h4>
+						<h4>ENICA EXPRESS KRG</h4>
 						<p className="address">
-							г. Бишкек, Юнусалиева, 28, 3 этаж
+							г. Бишкек, Юнусалиева, д. 28, 3 этаж
 						</p>
 						<p className="phone">Телефон: +996 555 323283</p>
-						<p className="email">E-mail: sales@enica-express.ru</p>
+						<p className="email">E-mail: bishkek@enica-exp.com</p>
 					</ContactItemDescr>
 					<ContactMap
 						src="https://yandex.ru/map-widget/v1/?um=mymaps%3ArOE022znJav0JiEc1JmIw22ZWtghnHPi&amp;source=constructor"
@@ -115,16 +126,39 @@ const Contacts = () => {
 
 				<ContactItemContent visible={tdjVisible}>
 					<ContactItemDescr>
-						<h4>Enica Express TDJ</h4>
+						<h4>
+							Представительство компании «Enex Logistics Co., Ltd»
+							в Таджикистане
+						</h4>
 						<p className="address">
-							г. Душанбе, ул. Джаббора Расулова, 6/1
+							г. Душанбе, ул. Джаббора Расулова, д. 6/1
 						</p>
 						<p className="phone">Телефон: +992 37 8853536</p>
-						<p className="email">E-mail: sales@enica-express.ru</p>
+						<p className="email">E-mail: moh@enex-logistics.com</p>
 					</ContactItemDescr>
 					<ContactMap
 						src="https://yandex.ru/map-widget/v1/?um=mymaps%3A6_A-SBdUAjvQV0sZuwsVf2FLKsEGimPw&amp;source=constructor"
 						title="Enica Express TDJ"
+					/>
+				</ContactItemContent>
+
+				<div className="contact__line"></div>
+			</ContactItem>
+			<ContactItem>
+				<h3 onClick={korClickHandler}>Офис в Южной Корее</h3>
+
+				<ContactItemContent visible={korVisible}>
+					<ContactItemDescr>
+						<h4>Enex Logistics Co., LTD</h4>
+						<p className="address">
+							1040, 89, Seosomun-ro, Jung-gu, Seoul city, Korea
+						</p>
+						<p className="phone">Телефон: +82 10 8932-6083</p>
+						<p className="email">E-mail: info@enex-logistics.com</p>
+					</ContactItemDescr>
+					<ContactMap
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6820430014905!2d126.96862351516769!3d37.5625542797986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca28bd1b5822f%3A0x736a46c720c0eb27!2zODkgU2Vvc29tdW4tcm8sIFN1bmh3YS1kb25nLCBKdW5nLWd1LCBTZW91bCwg0K7QttC90LDRjyDQmtC-0YDQtdGP!5e0!3m2!1sru!2skz!4v1627891558220!5m2!1sru!2skz"
+						title="Enex Logistics"
 					/>
 				</ContactItemContent>
 

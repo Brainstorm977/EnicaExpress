@@ -7,16 +7,23 @@ const Hero1 = () => {
 			<HeroDescr>
 				<h1>Enica Express RUS</h1>
 				<h3>
-					Международные автомобильные перевозки между Россией,
-					Прибалтикой и Средней Азией — Казахстаном, Узбекистаном,
-					Киргизией и Таджикикстаном.
+					Транспортная компания, оказывающая логистические услуги
+					между Россией, Центральной Азией – Казахстаном,
+					Узбекистаном, Киргизией, Таджикистаном, а также Прибалтикой
+					и Беларусью.
 					<br />
 					<br />
-					Внутренние перевозки по Центральному федеральному округу.
+					Мы предлагаем:
 					<br />
+					– FTL (генеральные) и LTL (сборные) перевозки, доставку
+					температурных, опасных и сыпучих грузов
 					<br />
-					Сборные и генеральные грузы, рефрижераторы (авто с
-					температурным режимом) и тентованные авто.
+					– Доставку по территории России, Москве и Московской области
+					<br />
+					– Сюрвейерские услуги
+					<br />
+					– Страхование грузов
+					<br />– Честные и прозрачные цены за наши услуги
 				</h3>
 				<button>
 					<a href="#contacts"> Связаться с нами</a>
@@ -35,7 +42,7 @@ const HeroStyled = styled.div`
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background: url("./img/hero_img.jpg") center center/cover no-repeat;
+	background: url("./img/hero_img1.jpg") center center/cover no-repeat;
 	font-family: "Ubuntu", sans-serif;
 `;
 
@@ -47,7 +54,7 @@ const HeroDescr = styled.div`
 	transform: translate(-70%, -50%);
 	h1 {
 		font-weight: 500;
-		font-size: 40px;
+		font-size: 36px;
 		color: white;
 		text-transform: uppercase;
 		line-height: 60px;
@@ -55,10 +62,10 @@ const HeroDescr = styled.div`
 	}
 	h3 {
 		font-weight: 300;
-		font-size: 22px;
-		line-height: 28px;
+		font-size: 20px;
+		line-height: 26px;
 		color: white;
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 	}
 	button {
 		padding: 10px 20px;
@@ -89,7 +96,7 @@ const HeroDescr = styled.div`
 			font-weight: 300;
 			font-size: 20px;
 			line-height: 24px;
-			text-align: center;
+			/* text-align: center; */
 		}
 		button {
 			display: block;
@@ -97,7 +104,7 @@ const HeroDescr = styled.div`
 		}
 	}
 	@media screen and (max-width: 600px) {
-		width: 400px;
+		max-width: 400px;
 		padding: 0px 30px;
 		h1 {
 			font-size: 26px;
@@ -109,7 +116,23 @@ const HeroDescr = styled.div`
 			font-weight: 300;
 			font-size: 18px;
 			line-height: 22px;
+			/* text-align: center; */
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		width: 90%;
+		padding: 0px 30px;
+		h1 {
+			font-size: 26px;
+			line-height: 40px;
 			text-align: center;
+			margin-bottom: 40px;
+		}
+		h3 {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 20px;
 		}
 	}
 `;
